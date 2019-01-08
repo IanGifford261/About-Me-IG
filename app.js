@@ -8,7 +8,7 @@ if (kids === '3' || kids === '4') {
     alert('yeah, you are correct. too many kids');
 }
 
-if (parseInt(kids) === 3 && parseint(guitars) === 3) {
+if (parseInt(kids) === 3 && parseInt(guitars) === 3) {
     alert('yeah you are right');
 } else {
     alert('you are wrong');
