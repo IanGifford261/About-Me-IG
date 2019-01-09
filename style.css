@@ -12,4 +12,13 @@ h1 {
     font-size: 21px;
 }
 
+main {
+    background-color: black;
+    color: greenyellow;
+    font-size: 20px;
+} 
+
+body {
+    background-color: bisque;
+}
 
