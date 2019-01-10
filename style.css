@@ -1,9 +1,9 @@
 
 header {
-    background: rgb(255, 0, 0);
+    background: grey;
     color: rgb(2, 40, 252);
     padding: 20px;
-
+    text-align: center;
 }
 
 /* base styles */
@@ -14,11 +14,11 @@ h1 {
 
 main {
     background-color: black;
-    color: greenyellow;
+    color: blanchedalmond;
     font-size: 20px;
 } 
 
 body {
-    background-color: bisque;
+    background-color: black;
 }
 
