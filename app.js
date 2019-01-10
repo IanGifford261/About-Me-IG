@@ -16,17 +16,19 @@ function questionOne(){
 }
 questionOne();
 
+function questionTwo(){
+    var seattle = prompt('Am I a Seattle native? Yes or No.').toUpperCase();
+        console.log (seattle);
 
-var seattle = prompt('Am I a Seattle native? Yes or No.').toUpperCase();
-    console.log (seattle);
-
-    if (seattle === ('YES') || seattle === ('Y')) {
-        alert('Nope! unfortunately I am not. I wish I was')
-    } else {
-        if (seattle === ('NO') || seattle === ('N'))
-        alert('You are correct, I dreamed of living here for years and finally made it happen New Years of 2019')
-        score++;
+        if (seattle === ('YES') || seattle === ('Y')) {
+            alert('Nope! unfortunately I am not. I wish I was')
+        } else {
+            if (seattle === ('NO') || seattle === ('N'))
+            alert('You are correct, I dreamed of living here for years and finally made it happen New Years of 2019')
+            score++;
+        }
     }
+questionTwo();
 
 var age = prompt('Am I seventeen years old? Yes or No.').toUpperCase();
     console.log (age);
