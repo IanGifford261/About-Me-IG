@@ -58,6 +58,7 @@ function questionFour(){
 }
 questionFour();
 
+function questionFive(){
 var narnia = prompt('Am I from Narnia? Yes or No.').toUpperCase();
     console.log (narnia);
 
@@ -68,7 +69,8 @@ var narnia = prompt('Am I from Narnia? Yes or No.').toUpperCase();
         alert('Yeah... sadface... Youre correct. Sadly')
         score++;
     }
-
+}
+questionFive();
     
     
     for(var i = 4; i > 0; i--) {
