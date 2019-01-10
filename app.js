@@ -31,29 +31,32 @@ function questionTwo(){
 questionTwo();
 
 function questionThree(){
-var age = prompt('Am I seventeen years old? Yes or No.').toUpperCase();
-    console.log (age);
+    var age = prompt('Am I seventeen years old? Yes or No.').toUpperCase();
+        console.log (age);
 
-    if (age === ('YES') || age === ('Y')) {
-        alert('NO haha, I dont know many seventeen year olds with a beard')
-    } else {
-        if (age === ('NO') || age === ('N'))
-        alert('Good guess. I am definitly not seventeen')
-        score++;
-    }
+        if (age === ('YES') || age === ('Y')) {
+            alert('NO haha, I dont know many seventeen year olds with a beard')
+        } else {
+            if (age === ('NO') || age === ('N'))
+            alert('Good guess. I am definitly not seventeen')
+            score++;
+        }
 }
 questionThree();
 
-var water = prompt('Do you think I am allergic to water? Yes or No.').toUpperCase();
-    console.log (water);
+function questionFour(){
+    var water = prompt('Do you think I am allergic to water? Yes or No.').toUpperCase();
+        console.log (water);
 
-    if (water === ('YES') || water === ('Y')) {
-        alert('Nooooo, I dont think that I know of many people that are haha. That would suck')
-    } else {
-        if (water === ('NO') || water === ('N'))
-        alert('Correct! I am not. Imagine how awful would it be to live in a rainy place and be allergic to water!')
-        score++;
-    }
+        if (water === ('YES') || water === ('Y')) {
+            alert('Nooooo, I dont think that I know of many people that are haha. That would suck')
+        } else {
+            if (water === ('NO') || water === ('N'))
+            alert('Correct! I am not. Imagine how awful would it be to live in a rainy place and be allergic to water!')
+            score++;
+        }
+}
+questionFour();
 
 var narnia = prompt('Am I from Narnia? Yes or No.').toUpperCase();
     console.log (narnia);
