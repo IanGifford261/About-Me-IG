@@ -21,4 +21,6 @@ main {
 body {
     background-color: black;
 }
-
+ul, ol {
+        padding: 10px;
+}
