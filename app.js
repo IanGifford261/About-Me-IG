@@ -1,3 +1,6 @@
+'use strict';
+
+
 var answercar = prompt('Do I like cars? Please answer Yes or No').toUpperCase();   
     console.log (answercar);
     
@@ -50,3 +53,24 @@ var narnia = prompt('Am I from Narnia? Yes or No.').toUpperCase();
     }
 
     
+    
+    for(var i = 4; i > 0; i--) {
+
+    var carsOwned = prompt('How many cars do I own? You have 4 guesses!');
+        console.log(i);
+        console.log(carsOwned);
+        
+        carsOwned = parseInt(carsOwned)
+
+        if(carsOwned === 7) {
+            alert('Spot on!');
+            i = 0;
+    } else 
+        if(carsOwned < 7) {
+            alert('Too Low');
+    } else
+        if(carsOwned > 7) {
+            alert('Too High!')
+    }
+}
+
