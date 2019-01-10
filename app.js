@@ -30,6 +30,7 @@ function questionTwo(){
     }
 questionTwo();
 
+function questionThree(){
 var age = prompt('Am I seventeen years old? Yes or No.').toUpperCase();
     console.log (age);
 
@@ -40,6 +41,8 @@ var age = prompt('Am I seventeen years old? Yes or No.').toUpperCase();
         alert('Good guess. I am definitly not seventeen')
         score++;
     }
+}
+questionThree();
 
 var water = prompt('Do you think I am allergic to water? Yes or No.').toUpperCase();
     console.log (water);
