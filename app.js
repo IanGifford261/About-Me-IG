@@ -72,53 +72,58 @@ var narnia = prompt('Am I from Narnia? Yes or No.').toUpperCase();
 }
 questionFive();
     
-    
+function questionSix(){    
     for(var i = 4; i > 0; i--) {
 
-    var carsOwned = prompt('How many cars do I own? You have 4 guesses!');
-        console.log(i);
-        console.log(carsOwned);
-        
-        carsOwned = parseInt(carsOwned)
+        var carsOwned = prompt('How many cars do I own? You have 4 guesses!');
+            console.log(i);
+            console.log(carsOwned);
+            
+            carsOwned = parseInt(carsOwned)
 
-        if(carsOwned === 7) {
-            alert('Spot on!');
-            i = 0;
-            score++;
-    } else if(carsOwned < 7){
-            alert('Too Low');
-    } else if(carsOwned > 7) {
-            alert('Too High!')
+            if(carsOwned === 7) {
+                alert('Spot on!');
+                i = 0;
+                score++;
+        } else if(carsOwned < 7){
+                alert('Too Low');
+        } else if(carsOwned > 7) {
+                alert('Too High!')
+        }
     }
 }
+questionSix();
 
-var carsFav = ['nissan', 'toyota', 'bmw']
+function questionSeven(){
+    var carsFav = ['nissan', 'toyota', 'bmw']
 
-for (var x = 6; x > 0 ; x--) {
-   var brands = prompt('What are three of my favorite car brands? You have 6 attempts. A hint, I mentioned them before on my page').toLowerCase();
-   console.log('car brands', brands);
+    for (var x = 6; x > 0 ; x--) {
+    var brands = prompt('What are three of my favorite car brands? You have 6 attempts. A hint, I mentioned them before on my page').toLowerCase();
+    console.log('car brands', brands);
 
-   if (brands === carsFav[0]) {
-       alert('That is correct!') 
-       x=0;
-       score++;
-   }
-   if (brands === carsFav[1]) {
-       alert('That is correct!') 
-       x=0;
-       score++
-   }
-   if (brands === carsFav[2]) {
-       alert('That is correct!')
-       x=0;
-       score++;
-   }
-   else {
-       alert('Try Again.')
-   }
-    if (x < 1) {
-        alert('my top three brands are nissan, toyota, and bmw.')
+    if (brands === carsFav[0]) {
+        alert('That is correct!') 
+        x=0;
+        score++;
     }
-}
+    if (brands === carsFav[1]) {
+        alert('That is correct!') 
+        x=0;
+        score++
+    }
+    if (brands === carsFav[2]) {
+        alert('That is correct!')
+        x=0;
+        score++;
+    }
+    else {
+        alert('Try Again.')
+    }
+        if (x < 1) {
+            alert('my top three brands are nissan, toyota, and bmw.')
+        }
+    }
 
-    alert('Your score is ' + score + ' ,good job')
+        alert('Your score is ' + score + ' ,good job')
+}
+questionSeven();
