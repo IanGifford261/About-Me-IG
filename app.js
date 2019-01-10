@@ -1,17 +1,21 @@
 'use strict';
 var score = 0;
 
-var answercar = prompt('Do I like cars? Please answer Yes or No').toUpperCase();   
-    console.log (answercar);
-    
+function questionOne(){
+    var answercar = prompt('Do I like cars? Please answer Yes or No').toUpperCase();   
+        console.log (answercar);
+        
 
-    if (answercar === ('YES') || answercar === ('Y')) {
-        alert('Yay! Thats right! Im learning to code to feed that passion');
-        score++;
-    } else {
-        if (answercar === ('NO') || answercar === ('N'))
-        alert('Whoops! Nope thats wrong. I absolutely LOVE cars')
-    }
+        if (answercar === ('YES') || answercar === ('Y')) {
+            alert('Yay! Thats right! Im learning to code to feed that passion');
+            score++;
+        } else {
+            if (answercar === ('NO') || answercar === ('N'))
+            alert('Whoops! Nope thats wrong. I absolutely LOVE cars')
+        }
+}
+questionOne();
+
 
 var seattle = prompt('Am I a Seattle native? Yes or No.').toUpperCase();
     console.log (seattle);
